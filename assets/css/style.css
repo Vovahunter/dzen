@@ -48,7 +48,7 @@ body{
 }
 .block{
   width: 1440px;
-  height: 100%;
+  height: 4000px;
   margin: 0 auto;
 }
 #wrapper, #content, #conteiner {
@@ -102,12 +102,55 @@ body{
   top: 63px;
   overflow: hidden;
 }
+.middle{
+  height: 200px;
+  border: 1px solid white;
+}
+.child{
+  display: inline-block;
+}
+.text{
+  text-align: center;
+  font-size: 500%;
+  font-family: 'Roboto';
+  margin-left: 40px;
+  margin-top: 90px;
+  margin-right: 200px;
+  margin-bottom: 90px;
+}
+.table{
+font-size: 150%;
+}
+span{
+  font-weight: bold;
+  display: inline-block;
+    width: 1em;
+  font-size: 20px;
+}
+#box{
+  width: 909px;
+  margin: 0 auto;
+}
+#left{
+  width: 201px;
+  float: left;
+  margin: 20px;
+}
+#right{
+  width: 354px;
+  float: right;
+  margin: 20px;
+}
+#central{
+  margin: 0 354px 0 201px;
+  margin: 20px;
+
+}
 #conteiner{
   width: 217px;
   height: 3194px;
   margin: 0;
   float: right;
-  display: block;
   border-left: 1px solid #E4E4E4;
   border-top: 0px;
 
@@ -116,6 +159,7 @@ body{
   left: 89.72%;
   right: 4.24%;
   top: 0;
+
   bottom: 96.52%;
   weight: 87px;
   height: 116px;
