@@ -95,12 +95,15 @@ body{
   color: #000000;
   opacity: 0.25;
 }
+.exper{
+  display: inline-block;
+}
 .content__photo{
   width: 652px;
   height: 200px;
-  left: 443px;
-  top: 63px;
-  overflow: hidden;
+  margin-bottom: 63px;
+  margin-left: 100px;
+  margin-right: 0;
 }
 .middle{
   height: 200px;
@@ -130,21 +133,22 @@ span{
 #box{
   width: 909px;
   margin: 0 auto;
+  display: inline-block;
 }
 #left{
-  width: 201px;
+  width: 250px;
   float: left;
-  margin: 20px;
+  margin: 0px;
   height: 150px;
 }
 #right{
-  width: 354px;
+  width: 280px;
   float: right;
-  margin: 20px;
+  margin: 0px;
 }
 #central{
   margin: 0 354px 0 201px;
-  margin: 20px;
+  margin: 0px;
 }
 .first{
   font-family: 'Roboto';
@@ -171,22 +175,23 @@ span{
 #one{
   width: 290px;
   float: left;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 0px;
+  margin-right: 5px;
   margin-top: 30px;
   margin-bottom: 80px;
   height: 400px;
 }
 #three{
   width: 290px;
-  margin: 0 290px 0 290px;
+  margin: 30px 290px 0 290px;
   height: 400px;
+  align: center;
 }
 #two{
   width: 290px;
   float: right;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 0px;
+  margin-right: 5px;
   margin-top: 30px;
   margin-bottom: 80px;
   height: 400px;
@@ -195,9 +200,10 @@ span{
   display: inline-block;
   text-align: center;
   margin-left: 280px;
-  margin-right: 250px;
+  margin-right: 240px;
   margin-bottom: 100px;
   margin-top: 50px;
+  size: 80%;
 }
 
 .pagination a {
